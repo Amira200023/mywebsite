@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color:#000000;
+    font-family: "Josefin Sans",sans-serif;
+    min-height: 100vh;
+    background-color: grey;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.logo{
+    color: #ffffff;
+    font-family: "Style Script", cursive;
+    font-weight: 800;
+    font-size: xx-large;
+    font-style: normal;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 6px;
+}
+nav ul li a{
+    color: #060000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+nav ul li a:hover{
+    color: white;
+}
+.content{
+    font-weight: 800;
+    font-size: xx-large;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+ .content .text{
+    color: #353535;
+    width: 40%;
+}
+content.text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.content .image img{
+    width: 600px;
+    float: left;
+} 
+content.text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.content .text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.text h1{
+    font-family: "Style Script", cursive;
+    color: #fff;   
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text h2{
+    color: #7A1527;   
+    font-size: 40px;
+    /* text-transform: uppercase; */
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.image{
+    
+    width: 40%;
+
+}
+ .image img{
+    align-content: center;
+    width: 600px;
+}
+.do h2{
+    color: #fff;   
+    font-size: 40px;
+    /* text-transform: uppercase; */
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.do p{
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+
+
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 80%; /* Full width */
+  background-color: #ddd; 
+ 
+}
+
+h3{
+    color: #fff;   
+    font-size: 40px;
+    /* text-transform: uppercase; */
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+p{
+    color:#000;   
+    text-transform: uppercase;
+font-weight: 700;
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  color: black; 
+  font-weight: 700;
+}
+
+.html {width: 90%; background-color: #F06529;} 
+.css {width: 80%; background-color:#2965f1;} 
+.js {width: 65%; background-color: #F0DB4F;} 
+.react {width: 60%; background-color:#61DBFB;} 
+
+footer{
+     font-size: 1.4rem;
+     text-align: center;
+    
+}
